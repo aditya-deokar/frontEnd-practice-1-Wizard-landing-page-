@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @media screen and (max-width:700px) {
 
 
@@ -270,4 +271,278 @@ textarea{
 
 
 
+=======
+@media screen and (max-width:700px) {
+
+
+
+    nav .part2-mob {
+
+        display: block;
+
+    }
+
+    nav .part2 {
+
+        display: none;
+    }
+
+
+
+    /* page1 */
+    .page1 {
+        justify-content: flex-start;
+    }
+
+    .page1-body {
+        height: 80%;
+
+        flex-direction: column;
+    }
+
+    .page1-bottom {
+
+        height: 20%;
+        /* background-color: aqua; */
+    }
+
+    .page1-p1 {
+        padding-top: 5vh;
+        height: 55%;
+        width: 100%;
+        /* background-color: aquamarine; */
+    }
+
+    .page1-p2 {
+        height: 40%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        /* background-color: rgb(139, 168, 159); */
+    }
+
+    .page1-p1 p {
+        font-size: 3vmin;
+
+    }
+
+    .page1-p1 button {
+        padding: 1vw 2vw;
+        font-size: 3.3vmin;
+    }
+
+    .page1-bottom {
+        position: relative;
+        flex-wrap: wrap;
+        gap: 1vw;
+    }
+
+    .page1-bottom img {
+        width: 100px;
+    }
+
+    /* page1 end */
+
+    /* page2 */
+
+    .page2-p1 {
+        flex-wrap: wrap;
+
+    }
+
+    .page2-p1 h1 {
+        width: 100%;
+    }
+
+    /* page2 */
+
+
+    /* pag3 */
+
+
+
+    .page3-main {
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 7vw;
+    }
+
+    .page3-p1 {
+        width: 100%;
+        height: 50%;
+
+        align-items: center;
+
+    }
+
+    .page3-p1 h3 {
+        font-size: 6vmin;
+    }
+
+    .page3-p1 h5 {
+
+        padding-top: 2vw;
+        padding-bottom: 4vw;
+    }
+
+    .page3-p1 button {
+
+        padding: 1vw 2vw;
+
+
+    }
+
+    .page3-p2 {
+        width: 100%;
+        height: 50%;
+    }
+
+    /* page3 end */
+
+
+    /* page4 */
+    .page4 {
+
+        height: 100vh;
+
+    }
+
+    .page4-p2 {
+        width: 100%;
+        height: 70%;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+
+
+    .page4-container {
+        width: 80%;
+        height: 20vh;
+        border-top: 2px solid black;
+        border-left: none;
+
+
+    }
+
+    .page4-p2 .noB {
+        border: none;
+
+    }
+
+    .page4-container h5 {
+
+        width: 85%;
+        font-size: 3.2vmin;
+    }
+
+    .page4-container p {
+        font-size: 3.4vmin;
+    }
+
+    .page4-container p i {
+        font-size: 3.5vmin;
+
+    }
+
+
+    /* page4 end */
+
+
+    /* page6 */
+
+    .page6-p2 {
+        width: 100%;
+        height: 100%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2vw;
+
+    }
+
+    .page6-container {
+        width: 90%;
+        height: 76vmin;
+        flex-direction: column;
+        border: 1px solid black;
+        border-radius: 4vw;
+        padding: 2vw;
+    }
+
+
+    .p6container-p1 h3 {
+
+        font-size: 5.2vmin;
+    }
+
+    .p6container-p1 h5 {
+
+        font-size: 4.2vmin;
+    }
+
+    .p6container-p2 h5 {
+        font-size: 3.8vmin;
+
+    }
+
+
+
+
+
+    /* page9 */
+
+    .page9-p1 .marque{
+        font-size: 8vmin;
+    }
+    
+input ,textarea{
+    height: 12vmin;
+    padding: 1vw 5vw;
+}
+
+textarea{
+    height: 16vh;
+   
+   
+}
+    .page9-p2 {
+        flex-direction: column;
+    }
+
+    .contact-form {
+        width: 100%;
+        height: 70%;
+        justify-content: flex-start;
+
+    }
+
+    .contact-image {
+        width: 100%;
+        height: 30%;
+       
+    }
+
+
+    form {
+        height: 70%;
+        width: 100%;
+       
+    }
+
+    /* page9 end */
+
+
+
+
+
+
+
+>>>>>>> d80ad5a44eb1984923993053350509f96b9b82ff
 }
